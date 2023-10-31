@@ -25,8 +25,8 @@
 
 # 📖 [Database From Diagram] <a name="about-project"></a>
 
-**[Database From Diagram]** is a Postgres database structured to create a schema design from a database diagram
-
+**[Database From Diagram]** is a Postgres database structured to create a schema design from a database diagram the end database diagram looks like 
+<img src="DB Diagram.png"></img>
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -46,7 +46,7 @@
 - **[Tables Created]**
 - **[Foreign Key Relationships Defined]**
 - **[Primary Key constraints Defined]**
-
+- **[Many to many Foreign Key Join table Created]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
