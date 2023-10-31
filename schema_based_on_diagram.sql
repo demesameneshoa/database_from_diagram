@@ -9,3 +9,11 @@ CREATE TABLE patients (
     date_of_birth DATE,
     PRIMARY KEY (id)
 );
+
+-- create the treatments table
+CREATE TABLE treatments (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    type VARCHAR(255),
+    name VARCHAR(255),
+    PRIMARY KEY (id)
+);
