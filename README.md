@@ -1,4 +1,4 @@
-## Vet_Clinic
+## Database From Diagram
 
 <!-- TABLE OF CONTENTS -->
 
@@ -23,10 +23,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Vet_Clinic] <a name="about-project"></a>
+# 📖 [Database From Diagram] <a name="about-project"></a>
 
-**[Vet_Clinic]** is a Postgres database structured to record data of a vet clinic in a database
-
+**[Database From Diagram]** is a Postgres database structured to create a schema design from a database diagram the end database diagram looks like 
+<img src="DB Diagram.png"></img>
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -42,22 +42,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Database Created]**
-- **[Animals Table Created]**
-- **[Data entered into the table]**
-- **[Multiple data queries executed]**
-- **[Updating data with transaction Rollback and Commit Executed]**
-- **[Deleting data with transaction Rollback and Commit Executed]**
-- **[Updating data with transaction savepoint Executed]**
-- **[Querying table with aggregated response Executed]**
-- **[Multiple tables added]**
-- **[Primary Keys and Foreign Keys Deployed]**
-- **[Data Inserted in multiple tables]**
-- **[Tables linked with Foreign keys]**
-- **[Querying Multiple tables using Join Executed]**
-- **[Join Tables added for multiple tables]**
-- **[Inserting Data into Join tables Executed]**
-- **[Querying Data by using Join Tables Executed]**
+- **[Database Created From a Diagram]**
+- **[Tables Created]**
+- **[Foreign Key Relationships Defined]**
+- **[Primary Key constraints Defined]**
+- **[Many to many Foreign Key Join table Created]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +68,7 @@ Clone this repository to your desired folder:
 ```sh
   mkdir vet-clinic
   cd vet-clinic
-  git clone git@github.com:demesameneshoa/vet_clinic.git
+  git clone git@github.com:demesameneshoa/database_from_diagram.git
 ```
 
 ### Install
@@ -88,7 +77,7 @@ No Installation Required
 
 ### Usage
 
-To deploy the database, execute shcema.sql, data.sql and queries.sql repectively in your psql shell
+To deploy the database, execute schema_based_on_diagram.sql  in your psql shell
 
 ### Run tests
 
@@ -106,13 +95,18 @@ No tests here
 - Twitter: [@demesabera](https://twitter.com/demesabera)
 - LinkedIn: [Demes Ameneshoa](https://linkedin.com/in/demesameneshoa)
 
+👤 **Author2**
+
+- GitHub: [@fmanimashaun](https://github.com/fmanimashaun)
+- Twitter: [@fmanimashaun](https://twitter.com/fmanimashaun)
+- LinkedIn: [Fisayo Michael Animashaun ](https://linkedin.com/in/fmanimashaun)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Relation Diagram]**
+- [ ] **[Data and Queries]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
