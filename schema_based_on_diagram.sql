@@ -28,3 +28,14 @@ CREATE TABLE medical_histories (
     FOREIGN KEY (patient_id) REFERENCES patients (id)
 );
 
+-- create invoices table
+CREATE TABLE invoices (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    total_amount DECIMAL(10,2),
+    generated_at timestamp,
+    payed_at timestamp,
+    medical_history_id INT,
+    PRIMARY KEY (id),
+    FOREIGN KEY (medical_history_id) REFERENCES medical_histories (id),
+);
+
